@@ -1,0 +1,558 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1665616117190783, "dur": 13373994, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616117192425, "dur": 33504, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616117225935, "dur": 188185, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616117414133, "dur": 5795653, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616123210088, "dur": 7341938, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616130552035, "dur": 12739, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616130568443, "dur": 49, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1665616121298579, "dur": 1617408, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665616121316135, "dur": 505134, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665616122673406, "dur": 58727, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665616122732172, "dur": 183774, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665616122758642, "dur": 133555, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665616123080326, "dur": 31551, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665616123051534, "dur": 60789, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616130569464, "dur": 909, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665616123719352, "dur":19748, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616123739133, "dur":238, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665616123739489, "dur":382, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665616123739871, "dur":1318, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665616123741259, "dur":4285, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616123745545, "dur":138, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130403760, "dur":470, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130404231, "dur":108, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130404340, "dur":1800, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130406141, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130406186, "dur":934, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407120, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407167, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407174, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407189, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407194, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407215, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407220, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407234, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407238, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407251, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407256, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407269, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407305, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130407414, "dur":27063, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665616123745149, "dur":649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616123745798, "dur":27554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616123773367, "dur":468713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1665616124242093, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616124244080, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1665616124248674, "dur":1074972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616125323678, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616125323784, "dur":25152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616125348974, "dur":654082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126003079, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126003105, "dur":11935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126015089, "dur":299916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126315020, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126315045, "dur":8350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126323552, "dur":142302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126465889, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126466020, "dur":28421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126494484, "dur":430078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126924577, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126924605, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126927990, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126928669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126928695, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126931945, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126932554, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126932579, "dur":5864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126938537, "dur":1716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126940323, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126940351, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126943747, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126944364, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616126944390, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616126948189, "dur":139229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127087449, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127087547, "dur":14223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127102053, "dur":352820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127454896, "dur":68, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127454988, "dur":5874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127461494, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127462227, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127462252, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127466730, "dur":202833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127669579, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127669616, "dur":7690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127677363, "dur":1258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127678633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127678657, "dur":6280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127684980, "dur":862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127685854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127685878, "dur":13487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127699930, "dur":2837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127702781, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616127702818, "dur":7061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616127710048, "dur":756598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616128466669, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616128466695, "dur":45037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616128511784, "dur":1071744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129583541, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129583565, "dur":14225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129597832, "dur":2066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129599911, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129599935, "dur":14418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129614518, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129615492, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129615518, "dur":11046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129626707, "dur":1522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129628242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129628263, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129631870, "dur":1569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129633457, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129633615, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129638330, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129639111, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129639165, "dur":151660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129790868, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129791589, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129791800, "dur":47299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129839135, "dur":989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129840134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129840154, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129844259, "dur":9634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129853909, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129853932, "dur":20648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129874619, "dur":814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129875444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129875464, "dur":6591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129882095, "dur":15793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129897913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129898126, "dur":23693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665616129921959, "dur":50198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1665616129972182, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665616129972495, "dur":16869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1665616129989421, "dur":414390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616123744712, "dur":990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616123745708, "dur":27639, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616123773366, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1665616123773384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616123779906, "dur":1609, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1665616123781528, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1665616123781785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616123888233, "dur":13451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1665616123901692, "dur":2539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665616123904245, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616123907908, "dur":188220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665616124096276, "dur":728113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665616124824464, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616124824990, "dur":41573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665616124866677, "dur":720812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665616125587501, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616125587520, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665616125593464, "dur":329159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616125922635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616125922727, "dur":10219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616125932988, "dur":341385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616126275324, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616126275352, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616126279802, "dur":171694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616126451509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616126455759, "dur":11913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616126467837, "dur":152867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616126620720, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616126621029, "dur":44595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616126665672, "dur":453314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127118999, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616127119027, "dur":17243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127136351, "dur":387832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127524340, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616127524387, "dur":32852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127558972, "dur":306158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127865145, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616127865168, "dur":33222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127898487, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127899148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616127899170, "dur":10070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616127911521, "dur":439802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616128351336, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616128351376, "dur":9594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616128361009, "dur":42943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616128403967, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616128403992, "dur":36698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616128440728, "dur":1954041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616130394782, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665616130394805, "dur":7867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665616130402795, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1665616130402814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616123745116, "dur":662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616123745779, "dur":27578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616123773368, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665616123773526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616123779092, "dur":391889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665616124171167, "dur":1210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1665616124172409, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616124172457, "dur":712010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1665616124884528, "dur":395145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665616125279700, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616125279754, "dur":165312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665616125445115, "dur":390330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616125836377, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616125846657, "dur":40463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616125887163, "dur":536248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126423431, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616126423469, "dur":19740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126443252, "dur":225897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126669170, "dur":9620, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616126678821, "dur":17845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126696714, "dur":1588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126698314, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616126698337, "dur":13109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126711489, "dur":1280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126712782, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616126712810, "dur":11122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126723982, "dur":5195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126729190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616126729213, "dur":14151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126743400, "dur":1239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126744650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616126744672, "dur":6135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616126750845, "dur":643727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616127394586, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616127394622, "dur":42366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616127437074, "dur":532048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616127969134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616127969158, "dur":38951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616128008153, "dur":2083131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616130099332, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665616130099376, "dur":9839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665616130109863, "dur":293592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616123745058, "dur":706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616123745765, "dur":27614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616123773381, "dur":288814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665616124062207, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616124062258, "dur":6019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665616124068340, "dur":24399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665616124092752, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616124093229, "dur":111937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665616124205234, "dur":1112444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616125317706, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616125319620, "dur":12413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616125332134, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1665616125332327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616125333083, "dur":384812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1665616125717956, "dur":497092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616126215062, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616126215087, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616126217864, "dur":402991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616126621027, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616126621051, "dur":9995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616126631118, "dur":794915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127426108, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616127426132, "dur":12429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127440375, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127441702, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616127441727, "dur":16522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127458301, "dur":416741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127875061, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616127875656, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127881969, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127882863, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616127882890, "dur":5417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127888734, "dur":2192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127890940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616127890963, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616127894111, "dur":548813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128442950, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616128443010, "dur":10701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128453745, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128454526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616128454717, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128457866, "dur":264600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128722615, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616128722663, "dur":13126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128736087, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128736918, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616128736944, "dur":29413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128766404, "dur":219659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616128986074, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616128986146, "dur":23345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129009546, "dur":1552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129011132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129011152, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129015148, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129015726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129015746, "dur":7039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129022818, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129023333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129023352, "dur":7146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129030679, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129031675, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129031708, "dur":59400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129091171, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129091689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129091708, "dur":3517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129095277, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129095692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129095710, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129098781, "dur":14217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129113059, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129113080, "dur":8666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129121926, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129122425, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129122448, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129126179, "dur":1122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129127346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129127570, "dur":6918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129134571, "dur":232206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129366847, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129366872, "dur":31933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129398900, "dur":386554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129785466, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129785488, "dur":13027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129798657, "dur":2513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129801198, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129801434, "dur":10225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129811764, "dur":1547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129813323, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129813346, "dur":7547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129820951, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129821663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129821685, "dur":10134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129831934, "dur":871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129832818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129832844, "dur":6891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129839821, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129840295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129840310, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129846352, "dur":8045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129854410, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129854432, "dur":20219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129874688, "dur":3668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129878382, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129878440, "dur":5636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129884108, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129884466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616129884485, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616129886633, "dur":259326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616130145973, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665616130154497, "dur":8632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665616130163181, "dur":240051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616123745350, "dur":465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616123745816, "dur":27544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616123773368, "dur":86787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1665616123860169, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616123860300, "dur":30081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1665616123890450, "dur":57733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1665616123948194, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616123948226, "dur":27604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1665616123975980, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1665616123976154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616123976191, "dur":3709132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1665616127685367, "dur":194664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616127880054, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616127881399, "dur":11539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616127892982, "dur":1033967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616128926962, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616128926992, "dur":82538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129009565, "dur":1639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129011212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129011226, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129015858, "dur":1841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129017903, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129017965, "dur":5807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129023804, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129024133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129024150, "dur":18705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129042926, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129043718, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129043783, "dur":48028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129091847, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129092265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129092283, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129095279, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129095688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129095708, "dur":28403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129124146, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129124584, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129124603, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129127332, "dur":238187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129365545, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129365589, "dur":31157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129396813, "dur":377294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129774119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129774143, "dur":18195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129792378, "dur":11403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129803816, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129803915, "dur":11587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129815552, "dur":3725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129820675, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129820699, "dur":11207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129831943, "dur":690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129832682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129832706, "dur":10949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129843773, "dur":1962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129845746, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129845767, "dur":23449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129869359, "dur":2834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129872204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129872226, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129875763, "dur":2593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129878382, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129878440, "dur":5590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129884066, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129884892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129884909, "dur":4900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665616129890007, "dur":2714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1665616129893126, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129895654, "dur":7476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1665616129903171, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665616129903215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129903346, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1665616129907004, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1665616129907487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129907506, "dur":23857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1665616129931411, "dur":8157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665616129939581, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129939600, "dur":4861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665616129944551, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665616129944679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665616129944698, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665616129949786, "dur":454003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616123744882, "dur":851, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616123745733, "dur":27683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616123773417, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1665616123773587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616123777906, "dur":3937795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1665616127715754, "dur":473883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616128189670, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616128189727, "dur":10676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616128200463, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616128201089, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616128201119, "dur":12427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616128215643, "dur":930330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129146010, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616129148807, "dur":649042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129797914, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129798494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616129798516, "dur":28339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129826943, "dur":1929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129828903, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616129828953, "dur":20223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129849219, "dur":3907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129853140, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616129853168, "dur":96401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1665616129949604, "dur":2708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1665616129952323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665616129952342, "dur":7216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1665616129959673, "dur":443976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616123744963, "dur":785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616123745749, "dur":27614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616123773369, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1665616123773600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616123778354, "dur":319105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1665616124097593, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1665616124098029, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616124098072, "dur":3751851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1665616127849974, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616127850851, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616127850876, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616127854903, "dur":224125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128079336, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128079367, "dur":32543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128112212, "dur":248628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128360851, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128360897, "dur":9078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128370054, "dur":407954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128778023, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128778048, "dur":12637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128790744, "dur":1565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128792321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128792345, "dur":24657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128820712, "dur":3967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128824709, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128824760, "dur":18170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128843252, "dur":11705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128854970, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128854995, "dur":7986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128863558, "dur":2006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616128865576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616128865599, "dur":158151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129023787, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129024387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129024404, "dur":20477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129044960, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129045798, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129045845, "dur":606926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129666571, "dur":8795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129675398, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129675527, "dur":181316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129857168, "dur":17415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129874592, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129874613, "dur":16916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1665616129891700, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1665616129892005, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129892259, "dur":13329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1665616129905656, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1665616129905715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129905731, "dur":40823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1665616129946659, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1665616129946708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1665616129946731, "dur":10885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1665616129958560, "dur":445094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616123744709, "dur":1012, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616123745722, "dur":27941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616123773664, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1665616123773753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616123779932, "dur":144860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1665616123924843, "dur":90347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1665616124015205, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616124015297, "dur":14093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1665616124029535, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1665616124030212, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616124035286, "dur":25860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1665616124061190, "dur":126919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1665616124188126, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616124188159, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1665616124192283, "dur":1669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1665616124193965, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616124193989, "dur":628870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1665616124822948, "dur":1378655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126201615, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616126201634, "dur":91101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126292830, "dur":1623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126294470, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616126294511, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126299310, "dur":335497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126634841, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616126634874, "dur":12927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126647873, "dur":333561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126981449, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616126981475, "dur":4645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616126986173, "dur":505025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616127491214, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616127491272, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616127494572, "dur":491759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616127986344, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616127986367, "dur":32727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128019135, "dur":385424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128404572, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616128404595, "dur":26067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128430736, "dur":135647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128566398, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616128566435, "dur":10105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128576656, "dur":1245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128577915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616128577941, "dur":12434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616128590422, "dur":1419152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616130009587, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1665616130009614, "dur":14154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-1/JumpJumpAdventure_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1665616130024019, "dur":380628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665616130444818, "dur":22962, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665616130570633, "dur": 110163, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665616130568381, "dur": 112693, "ph": "X", "name": "Write chrome-trace events", "args": {} },
