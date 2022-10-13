@@ -7,12 +7,14 @@ public class CharacterCotroller : MonoBehaviour
     private new Rigidbody2D rigidbody;//Instansiamos la variable rigidbody.
     private BoxCollider2D boxCollider;
     public LayerMask capaSuelo;
+    private Animator animator;
     
     public float velocidadMovimiento;
     private bool mirandoDerecha = true;
     public float fuerzaSalto;
     public int saltosMaximos;
     private int saltosRestantes;
+    public float distanciaDelSuelo;
     
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,7 @@ public class CharacterCotroller : MonoBehaviour
          */
         rigidbody = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
         saltosRestantes = saltosMaximos; //Indicamos que al comienzo del juego, el jugador tiene el maximo de saltos
     }
 
@@ -30,6 +33,9 @@ public class CharacterCotroller : MonoBehaviour
     {
         ProcesarMovimiento();
         ProcesarSalto();
+        
+        //Para visualizar la distancia del suelo, dibujamos un rayo azul hacia el suelo.
+        //Debug.DrawRay(this.transform.position, Vector2.down * distanciaDelSuelo, Color.blue);
     }
 
     bool EstaEnEuelo()
@@ -39,8 +45,8 @@ public class CharacterCotroller : MonoBehaviour
          * Physics2D.BoxCast(punto de origeren, tamanio de la caja, angulo en el que queremos que se emita la caja,
          * direccion, distancia de la caja, LayeerMask);
          */
-       RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, 
-                                 boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo);
+       RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x/2, 
+                                 boxCollider.bounds.size.y/2), 0f, Vector2.down, distanciaDelSuelo, capaSuelo);
        
        /*
         * Si debuelve null, significa que no esta colisionando con nada, por lo tanto la variable bool EstaEnSuelo
@@ -57,7 +63,7 @@ public class CharacterCotroller : MonoBehaviour
         }
         if (Input.GetButtonDown("Jump") && saltosRestantes > 0)
         {
-            saltosRestantes = saltosRestantes - 1;
+            saltosRestantes -= 1;
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0f);
             rigidbody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
         }
@@ -73,6 +79,15 @@ public class CharacterCotroller : MonoBehaviour
         rigidbody.velocity = new Vector2(inputMovimiento * velocidadMovimiento, rigidbody.velocity.y); //Mueve al personaje en el eje X.
         
         GestionarOrientacion(inputMovimiento);
+
+        if (inputMovimiento != 0f)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
     }
 
     void GestionarOrientacion(float inputMovimiento)
