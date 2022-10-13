@@ -5,9 +5,14 @@ using UnityEngine;
 public class CharacterCotroller : MonoBehaviour
 {
     private new Rigidbody2D rigidbody;//Instansiamos la variable rigidbody.
+    private BoxCollider2D boxCollider;
+    public LayerMask capaSuelo;
+    
     public float velocidadMovimiento;
     private bool mirandoDerecha = true;
     public float fuerzaSalto;
+    public int saltosMaximos;
+    private int saltosRestantes;
     
     // Start is called before the first frame update
     void Start()
@@ -16,6 +21,8 @@ public class CharacterCotroller : MonoBehaviour
          * el objeto, que es el Rigidbody2D.
          */
         rigidbody = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
+        saltosRestantes = saltosMaximos; //Indicamos que al comienzo del juego, el jugador tiene el maximo de saltos
     }
 
     // Update is called once per frame
@@ -25,10 +32,33 @@ public class CharacterCotroller : MonoBehaviour
         ProcesarSalto();
     }
 
+    bool EstaEnEuelo()
+    {
+        /*
+         * Es como un Raycast pero en vez de ser un rayo, es una caja.\
+         * Physics2D.BoxCast(punto de origeren, tamanio de la caja, angulo en el que queremos que se emita la caja,
+         * direccion, distancia de la caja, LayeerMask);
+         */
+       RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, 
+                                 boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo);
+       
+       /*
+        * Si debuelve null, significa que no esta colisionando con nada, por lo tanto la variable bool EstaEnSuelo
+        * devolvera falso.
+        */
+       return raycastHit.collider != null;
+    }
+
     void ProcesarSalto()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (EstaEnEuelo())
         {
+            saltosRestantes = saltosMaximos;
+        }
+        if (Input.GetButtonDown("Jump") && saltosRestantes > 0)
+        {
+            saltosRestantes = saltosRestantes - 1;
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0f);
             rigidbody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
         }
     }
