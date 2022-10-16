@@ -396,3 +396,7 @@ D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assemb
 D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\obj\Debug\Assembly-CSharp.dll
 D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\obj\Debug\Assembly-CSharp.pdb
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Cinemachine.dll
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\com.unity.cinemachine.editor.dll
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\com.unity.cinemachine.editor.pdb
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Cinemachine.pdb
