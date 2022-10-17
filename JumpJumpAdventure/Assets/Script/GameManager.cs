@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
      * El crear esta propiedad, se puede acceder a la variable como si fuera publica, pero sin que esta lo sea.
      * Porque? porque si fuera publica, podriamos terminar modificandola en el engine.
      */
-    
     public int propiedadPuntosTotales // Propiedad de solo lectura.
     {
         get { return puntosTotales; } 
@@ -29,6 +28,6 @@ public class GameManager : MonoBehaviour
     public void SumarPuntos(int puntosASumar)
     {
         puntosTotales += puntosASumar;
-        Debug.Log(puntosTotales);
+       Debug.Log(puntosTotales);
     }
 }

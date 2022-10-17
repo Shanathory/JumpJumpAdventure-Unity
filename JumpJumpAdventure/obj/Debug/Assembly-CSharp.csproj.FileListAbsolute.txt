@@ -400,3 +400,11 @@ D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assemb
 D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\com.unity.cinemachine.editor.dll
 D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\com.unity.cinemachine.editor.pdb
 D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Cinemachine.pdb
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.Performance.Profile-Analyzer.Editor.dll
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.ProGrids.dll
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.ProGrids.Editor.dll
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.Settings.Editor.dll
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.Performance.Profile-Analyzer.Editor.pdb
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.ProGrids.pdb
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.ProGrids.Editor.pdb
+D:\proyect_Unity\JumpJumpAdventure-Unity\JumpJumpAdventure\Temp\Bin\Debug\Assembly-CSharp\Unity.Settings.Editor.pdb

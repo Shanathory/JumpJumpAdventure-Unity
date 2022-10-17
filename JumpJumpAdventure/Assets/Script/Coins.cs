@@ -6,18 +6,7 @@ using UnityEngine;
 public class Coins : MonoBehaviour
 {
     public int valor = 1;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public AudioClip sonidoCoin;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,7 +14,8 @@ public class Coins : MonoBehaviour
         if (collision.CompareTag("Player")) // Si el que colisiona es el player, se ejecuta. Evita que "enemigo" la agarre sin querer.
         {
             GameManager.sharedInstance.SumarPuntos(valor);
-            Destroy(this.gameObject);            
+            Destroy(this.gameObject);     
+            AudioManager.sharedInstace.ReproducirSonido(sonidoCoin);
         }
     }
 }

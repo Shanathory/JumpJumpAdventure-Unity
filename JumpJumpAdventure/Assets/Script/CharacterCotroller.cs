@@ -7,6 +7,7 @@ public class CharacterCotroller : MonoBehaviour
     private new Rigidbody2D rigidbody;//Instansiamos la variable rigidbody.
     private BoxCollider2D boxCollider;
     private Animator animator;
+    public AudioClip sonidoSalto;
     
     public LayerMask capaSuelo;
     private bool mirandoDerecha = true;
@@ -67,9 +68,11 @@ public class CharacterCotroller : MonoBehaviour
         
         if (Input.GetButtonDown("Jump") && saltosRestantes > 0)
         {
+            
             saltosRestantes -= 1;
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0f);
             rigidbody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+            AudioManager.sharedInstace.ReproducirSonido(sonidoSalto);
         }
     }
     void ProcesarMovimiento()
@@ -90,7 +93,7 @@ public class CharacterCotroller : MonoBehaviour
         }
         else
         {
-            animator.SetBool("isRunning", false);
+            animator.SetBool("isRunning",  false);
         }
     }
 
