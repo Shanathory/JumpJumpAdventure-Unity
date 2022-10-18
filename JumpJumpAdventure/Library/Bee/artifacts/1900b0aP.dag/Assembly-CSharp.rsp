@@ -329,6 +329,7 @@
 "Assets/Script/CamaraController.cs"
 "Assets/Script/CharacterCotroller.cs"
 "Assets/Script/Coins.cs"
+"Assets/Script/EnemiController.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/HUD.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
