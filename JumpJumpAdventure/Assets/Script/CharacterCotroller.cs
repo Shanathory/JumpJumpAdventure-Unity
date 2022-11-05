@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterCotroller : MonoBehaviour
@@ -9,13 +10,22 @@ public class CharacterCotroller : MonoBehaviour
     private Animator animator;
     public AudioClip sonidoSalto;
     
+    [Header("Movimiento")]
     public LayerMask capaSuelo;
+
+    public bool sePuedeMover = true; //Si recibe danio por parte del enemigo, no se podra mover
     private bool mirandoDerecha = true;
     public float velocidadMovimiento;
     public float distanciaDelSuelo;
+    
+    [Header("Salto")]
     public float fuerzaSalto;
     public int saltosMaximos;
     private int saltosRestantes;
+    
+    [Header("Rebote")]
+    [SerializeField] private float alturaRebote; // Pisa enemigo
+    [SerializeField] private Vector2 distanciaRebote; //Recibe danio
     
     // Start is called before the first frame update
     void Start()
@@ -33,8 +43,11 @@ public class CharacterCotroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcesarMovimiento();
-        ProcesarSalto();
+        if (sePuedeMover)
+        {
+            ProcesarMovimiento();
+            ProcesarSalto();
+        }
         
         //Para visualizar la distancia del suelo, dibujamos un rayo azul hacia el suelo.
         //Debug.DrawRay(this.transform.position, Vector2.down * distanciaDelSuelo, Color.blue);
@@ -105,4 +118,14 @@ public class CharacterCotroller : MonoBehaviour
             transform.localScale = new Vector2(-1 * transform.localScale.x, transform.localScale.y); //Rota al personaje 180
         }
     }
+
+    public void Rebote() // Cuando pisa al enemigo
+    {
+        rigidbody.velocity = new Vector2(rigidbody.velocity.x, alturaRebote);
+    }
+
+    public void ReboteGolpe(Vector2 puntoGolpe) //Cuando el enemigo lo toca.
+    {
+        rigidbody.velocity = new Vector2(-distanciaRebote.x * puntoGolpe.x, distanciaRebote.y);
+    } 
 }

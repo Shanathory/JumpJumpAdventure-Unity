@@ -11,9 +11,12 @@ public class EnemiController : MonoBehaviour
     public LayerMask pared;
     private BoxCollider2D boxCollider;
     
+    [Header("GameObjet")] //Esto es para separarlo visualmente en el inspector de Unity
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private Transform enemigo;
+    [Header("")]
     [SerializeField] private float velocidad;
+    [Header("Distancias de collision")]
     [SerializeField] private float distanciaSuelo;
     [SerializeField] private float distanciaParedD;
     [SerializeField] private float distanciaParedI;
@@ -46,14 +49,14 @@ public class EnemiController : MonoBehaviour
             contTocaParedI = 0;
         }
         
-        else if ((TocaParedD() && contTocaParedD == 0) || informacionSuelo == false)
+        else if ((TocaParedD() && contTocaParedD == 0))
         {
             contTocaParedD = 1;
             Girar();
             contTocaParedI = 0;
         }
 
-        else if ((TocaParedI() && contTocaParedI == 0) || informacionSuelo == false)
+        else if ((TocaParedI() && contTocaParedI == 0))
         {
             contTocaParedI = 1;
             Girar();

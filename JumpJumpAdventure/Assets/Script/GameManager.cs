@@ -30,4 +30,5 @@ public class GameManager : MonoBehaviour
         puntosTotales += puntosASumar;
        Debug.Log(puntosTotales);
     }
+    
 }

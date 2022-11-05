@@ -8,6 +8,11 @@ ScriptsOnlyBuild:
     - EnemiController
     - GameManager
     - HUD
+    - HacerDanio
+    - Menu
+    - Pinchos
+    - RecibirDanioEnemi
+    - SaludCharacterCotroller
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineComposer
@@ -52,7 +57,6 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
@@ -65,8 +69,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   serializedClasses:
     Cinemachine:
     - Cinemachine.CinemachineBlendDefinition
@@ -90,15 +96,43 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: Salir
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: Jugar
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: Salir
   sceneClasses:
     Assets/Scenes/Level-1.unity:
     - Class: 1
@@ -112,8 +146,6 @@ ScriptsOnlyBuild:
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
@@ -140,9 +172,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 686}
     - Class: 114
-      Script: {instanceID: 2316}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 2316}
     - Class: 114
       Script: {instanceID: 2876}
     - Class: 114
@@ -152,37 +184,130 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3066}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3830}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 3980}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4308}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4778}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 4918}
     - Class: 114
-      Script: {instanceID: 5092}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5360}
+      Script: {instanceID: 5390}
     - Class: 114
-      Script: {instanceID: 5842}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 5854}
     - Class: 114
-      Script: {instanceID: 7086}
+      Script: {instanceID: 6082}
     - Class: 114
-      Script: {instanceID: 7130}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 7356}
+      Script: {instanceID: 7100}
     - Class: 114
-      Script: {instanceID: 7788}
+      Script: {instanceID: 7144}
     - Class: 114
-      Script: {instanceID: 38976}
+      Script: {instanceID: 7370}
+    - Class: 114
+      Script: {instanceID: 7802}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/MenuInicio.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 686}
+    - Class: 114
+      Script: {instanceID: 1574}
+    - Class: 114
+      Script: {instanceID: 2416}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 3230}
+    - Class: 114
+      Script: {instanceID: 3618}
+    - Class: 114
+      Script: {instanceID: 4778}
+    - Class: 114
+      Script: {instanceID: 4860}
+    - Class: 114
+      Script: {instanceID: 5008}
+    - Class: 114
+      Script: {instanceID: 5366}
+    - Class: 114
+      Script: {instanceID: 5676}
+    - Class: 114
+      Script: {instanceID: 6082}
+    - Class: 114
+      Script: {instanceID: 6362}
+    - Class: 114
+      Script: {instanceID: 7144}
+    - Class: 114
+      Script: {instanceID: 7802}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -650,6 +775,12 @@ ScriptsOnlyBuild:
     className: ScriptMachine
   - hash:
       serializedVersion: 2
+      Hash: d99c702a2d9effd3750bc4fdcbf7a237
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecibirDanioEnemi
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -812,6 +943,12 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
+      Hash: bd433ce3faf68c752f6ebd6064015657
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaludCharacterCotroller
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -866,7 +1003,7 @@ ScriptsOnlyBuild:
     className: CinemachineHardLockToTarget
   - hash:
       serializedVersion: 2
-      Hash: f395a4e04248b342019e540430f2e0c3
+      Hash: 608bbe190d49aff337bfab23cb83ab84
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterCotroller
@@ -912,6 +1049,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HacerDanio
   - hash:
       serializedVersion: 2
       Hash: ab6a2fed0a3d86e42cbaa680bbf9bfac
@@ -962,10 +1105,22 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
+  - hash:
+      serializedVersion: 2
       Hash: b6514f552bd2ee9e736a5678aa7f7de3
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pinchos
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1038,6 +1193,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine.PostFX
     className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8524aa9980e8445da737fe1c26b62592
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemiController
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -1674,13 +1835,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 8524aa9980e8445da737fe1c26b62592
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemiController
   platform: 19
   scenePathNames:
+  - Assets/Scenes/MenuInicio.unity
   - Assets/Scenes/Level-1.unity
-  playerPath: D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build-4/JumpJumpAdventure.exe
+  playerPath: D:/proyect_Unity/JumpJumpAdventure-Unity/Builds/Build -7.2/JumpJumpAdventure.exe
